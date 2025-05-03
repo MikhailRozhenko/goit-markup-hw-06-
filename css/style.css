@@ -571,6 +571,19 @@ button {
   letter-spacing: 0.02em;
 }
 
+@media screen and (max-width: 1157px) {
+  .ul-advantages .page {
+    font-weight: 700;
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ul-advantages .page {
+    text-align: center;
+  }
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -591,12 +604,9 @@ button {
   }
 
   .page {
-    font-weight: 500;
-    font-size: 20px;
-
     line-height: 1.11111;
     letter-spacing: 0.02em;
-    text-align: center;
+
     color: #2e2f42;
     margin-bottom: 8px;
   }
@@ -804,6 +814,11 @@ button {
   .container-portfolio-text .page {
     text-align: left;
   }
+}
+
+.container-portfolio-text .page {
+  font-weight: 500;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 1157px) {
